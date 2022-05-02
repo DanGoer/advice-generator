@@ -16,8 +16,9 @@ function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col items-center justify-center bg-backg h-screen">
-      {advice && <AdviceCard advice={advice} />}
+    <main className="flex flex-col items-center justify-center bg-backg h-screen gap-6">
+      {advice && <AdviceCard advice={advice} getAdvice={getAdvice} />}
+
       <Footer />
     </main>
   );
