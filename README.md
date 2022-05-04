@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Advice Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A simple React advice generator, using Typescript and Tailwind.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Project Status](#project-status)
+- [Room for Improvement](#room-for-improvement)
+- [Contact](#contact)
+- [License](#license)
 
-### `npm start`
+## General Information
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was created with the purpose of learning Typescript and Tailwind.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The intention was to take on a frontendmentor challenge and create an usable advice generator with the help of state of the art technology.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Typescript - version 4.6.2
+- React - version 17.0.2
+- Tailwind - version 3.0.23
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Styled page with card for displaying advices, another advice can be created per click on a button
+- Responsive features for severals widths
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For running it on your local environment first:
 
-### `npm run eject`
+`npm install or yarn install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run development server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm start or yarn start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Open http://localhost:3000 with your browser to see the result.
+For a full list of dependencies take a look at package.json.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+For this project is nothing else necessary, the consumed API needs no key.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can get advices per click on a button
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Status
+
+Project is: _incomplete_
+
+This is the advanced version of my advice generator.
+
+## Room for Improvement
+
+- Adding lightkmode
+
+## Contact
+
+## License
+
+Feel free to use this code for your own projects!
