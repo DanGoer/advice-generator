@@ -58,7 +58,7 @@ This is the advanced version of my advice generator.
 
 ## Room for Improvement
 
-- Adding lightkmode
+- Adding lightmode
 
 ## Contact
 

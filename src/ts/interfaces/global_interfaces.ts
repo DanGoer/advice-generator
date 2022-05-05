@@ -1,4 +1,4 @@
-export interface placeholder {
-  test: string;
-  test2: string | null;
+export interface AdviceCardI {
+  advice: any;
+  getAdvice: any;
 }
