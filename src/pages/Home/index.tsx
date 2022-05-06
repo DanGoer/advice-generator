@@ -4,9 +4,10 @@ import AdviceCard from "./components/AdviceCard";
 import Footer from "./components/Footer";
 
 function Home() {
-  const [advice, setAdvice] = useState<any>();
+  const [advice, setAdvice] = useState<any>(null);
 
   const getAdvice = async () => {
+    setAdvice(null);
     const res = await axios.get("https://api.adviceslip.com/advice");
     setAdvice(res);
   };
@@ -17,7 +18,7 @@ function Home() {
 
   return (
     <main className="flex flex-col items-center justify-center bg-backg h-screen gap-6 z-20">
-      {advice && <AdviceCard advice={advice} getAdvice={getAdvice} />}
+      <AdviceCard advice={advice} getAdvice={getAdvice} />
       <Footer />
     </main>
   );
