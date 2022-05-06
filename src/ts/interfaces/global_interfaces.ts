@@ -1,4 +1,4 @@
 export interface AdviceCardI {
-  advice: any;
+  advice: String | any;
   getAdvice: any;
 }

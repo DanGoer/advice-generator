@@ -2,7 +2,7 @@ import { AdviceCardI } from "../../../ts/interfaces/global_interfaces";
 
 function AdviceCard({ advice, getAdvice }: AdviceCardI) {
   return (
-    <section className="rounded-2xl w-full max-w-xl h-80 bg-card flex flex-col items-center justify-center z-30 relative">
+    <section className="rounded-2xl w-[90%] max-w-xl h-80 bg-card flex flex-col mx-40 -top-40 md:-top-20 items-center justify-center z-30 relative">
       {!advice ? (
         <div className="flex flex-col items-center gap-4">
           <div className="text-para font-extrabold text-2xl">
@@ -12,15 +12,15 @@ function AdviceCard({ advice, getAdvice }: AdviceCardI) {
         </div>
       ) : (
         <>
-          <h4 className="text-but uppercase text-sm tracking-[4px] py-5 font-normal">
+          <h4 className="text-but uppercase text-xs tracking-[4px] py-5 font-normal">
             Advice #{advice.data.slip.id}
           </h4>
           <p className="text-para font-extrabold text-2xl mb-28 tracking-wider text-center px-6">
             "{advice.data.slip.advice}"
           </p>
-          <div className="bottom-16 - lg:flex hidden absolute">
+          <div className="bottom-16 lg:flex hidden absolute">
             <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" fill-rule="evenodd">
+              <g fillRule="evenodd">
                 <path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z" />
                 <g transform="translate(212)" fill="#CEE3E9">
                   <rect width="6" height="16" rx="3" />
@@ -31,7 +31,7 @@ function AdviceCard({ advice, getAdvice }: AdviceCardI) {
           </div>
           <div className=" bottom-12 flex lg:hidden absolute">
             <svg width="295" height="16" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" fill-rule="evenodd">
+              <g fillRule="evenodd">
                 <path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z" />
                 <g transform="translate(138)" fill="#CEE3E9">
                   <rect width="6" height="16" rx="3" />

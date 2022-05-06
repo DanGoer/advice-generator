@@ -30,7 +30,7 @@ function Footer() {
         <div>
           The code can be found here:{" "}
           <a
-            href="https://www.github.com/"
+            href="https://github.com/DanGoer/advice-generator"
             target="_blank"
             rel="noopener noreferrer"
             className="text-para hover:text-but"

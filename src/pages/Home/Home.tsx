@@ -4,10 +4,10 @@ import AdviceCard from "./components/AdviceCard";
 import Footer from "./components/Footer";
 
 function Home() {
-  const [advice, setAdvice] = useState<any>(null);
+  const [advice, setAdvice] = useState<Object>("");
 
   const getAdvice = async () => {
-    setAdvice(null);
+    setAdvice("");
     const res = await axios.get("https://api.adviceslip.com/advice");
     setAdvice(res);
   };

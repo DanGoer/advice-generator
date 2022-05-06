@@ -29,7 +29,8 @@ The intention was to take on a frontendmentor challenge and create an usable adv
 ## Features
 
 - Styled page with card for displaying advices, another advice can be created per click on a button
-- Responsive features for severals widths
+- Responsive features for several widths
+- Loading screen, if there is no advice yet
 
 ## Setup
 
@@ -44,6 +45,8 @@ To run development server:
 Open http://localhost:3000 with your browser to see the result.
 For a full list of dependencies take a look at package.json.
 
+If you want to use this app, you have to change addresses and link to your own sites!
+
 For this project is nothing else necessary, the consumed API needs no key.
 
 ## Usage
@@ -54,6 +57,10 @@ You can get advices per click on a button
 
 Project is: _incomplete_
 
+The Project will work fine.
+
+Some of the types in the interface must be changed.
+
 This is the advanced version of my advice generator.
 
 ## Room for Improvement
@@ -61,6 +68,8 @@ This is the advanced version of my advice generator.
 - Adding lightmode
 
 ## Contact
+
+Created by [@DanGoer](https://www.github.com/DanGoer/) - feel free to contact me!
 
 ## License
 
